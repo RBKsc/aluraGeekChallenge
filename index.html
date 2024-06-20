@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/stilos.css">
+    <title>Alura Geek</title>
+</head>
+<body>
+    <header class="container_header">
+        <img src="imagenes/aluraGeekLOgo.png" class="Logo_alura" alt="logo">
+    </header>
+    
+    <main class="productos_catalogos" data-productos>
+        <h3 class="titulo_productos">Productos en venta</h3>
+        <!--productos javascript-->
+
+    </main>
+
+    <section class="container">
+        <form class="container_form" data-formulario>
+            <h2 class="formulario_title">Agregar Producto</h2>
+            <div class="campo_form">
+                <label class="campo_etiqueta" for="producto">Nombre del producto:</label>
+                <input name="producto" class="campo_escrito" required
+                placeholder="Nombre del producto:" id="producto" data-nombre/>
+            </div>
+
+            <div class="campo_form">
+                <label class="campo_etiqueta" for="price">Precio:</label>
+                <input name="price" class="campo_escrito" required
+                placeholder="$150.00" id="price" data-price/>
+            </div>
+
+            <div class="campo_form">
+                <label class="campo_etiqueta" for="imagen">Imagen:</label>
+                <input name="imagen" class="campo_escrito" required
+                placeholder="imagen" id="imagen" data-price/>
+            </div>
+
+            <div class="botones">
+            <input class="boton_form" type="submit" value="Enviar"/>
+            <input class="boton_form" type="reset" value="Limpiar"/>
+            </div>  
+            
+        </form>
+
+    </section>
+
+    <footer class="foot">
+            <p class="foot_er">Desarrollado por Rebeca Palacios</p>
+            <p class="foot_er">2024</p>
+    </footer>  
+    
+    <!--script js-->
+</body>
+</html>
