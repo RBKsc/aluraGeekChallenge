@@ -1,0 +1,25 @@
+{
+  "name": "alurageekchallenge",
+  "version": "1.0.0",
+  "description": "productos geek",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RBKsc/aluraGeekChallenge.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "BK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RBKsc/aluraGeekChallenge/issues"
+  },
+  "homepage": "https://github.com/RBKsc/aluraGeekChallenge#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.1"
+  }
+}

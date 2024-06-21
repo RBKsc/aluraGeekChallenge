@@ -1,0 +1,41 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "producto": "Stormtrooper",
+        "precio": "$100.00",
+        "imagem": "https://i.ebayimg.com/images/g/ScYAAOSwjFleIa87/s-l640.jpg"
+      },
+      {
+        "id": 2,
+        "titulo": "game boy clásico",
+        "descripcion": "$600.00",
+        "imagem": "https://cdn.pixabay.com/photo/2018/06/27/10/06/game-3501200_960_720.jpg"
+      },
+      {
+        "id": 3,
+        "titulo": "Neo Funko Pop",
+        "descripcion": "$600.00",
+        "imagem": "https://tooys.mx/media/catalog/product/cache/39c7ff5a74bd9fa282a021db605b774d/n/e/neo_matrix-resurrecciones_funko-pop_tooys_00_1.png"
+      },
+      {
+        "id": 4,
+        "titulo": "katanas demon slayer",
+        "descripcion": "$5000.00",
+        "imagem": "https://chikaratoys.com/cdn/shop/products/c7431e9c-d477-482e-828d-0d7bc1285625_1024x.jpg"
+      },
+      {
+        "id": 5,
+        "titulo": "Control joystick para pc usb nintendo",
+        "descripcion": "$1000.00",
+        "imagem": "https://tiendageek.com/cdn/shop/products/control-n64-joystick-usb-para-pc-juegos-nintendo-229817_1100x.jpg"
+      },
+      {
+        "id": 6,
+        "titulo": "Funda control play station silicón",
+        "descripcion": "$400.00",
+        "imagem": "https://tiendageek.com/cdn/shop/products/funda-protector-de-silicon-para-control-ps5-playstation-5-596722.jpg"
+      }
+      
+    ]
+  }
