@@ -27,6 +27,12 @@ body {
     height: 100%;
 }
 
+.mensaje__titulo {
+    color: var(--azul-medio);
+    font-weight: bold;
+    font-size: 21px;
+}
+
 .productos_catalogos{
         display: flex;
         flex-wrap: wrap;
@@ -41,10 +47,24 @@ body {
 }
 
 /*js*/
+
+.producto {
+    width: 178px;
+    height: 258px;
+    display: flex;
+    flex-direction: column;
+    background: var(--dark-fucsia);
+    box-shadow: -5px 6px 3px rgba(0,0,0, 0.25);
+    border-radius: 10px;
+    border: 3px solid #000000;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+
 .productos__item {
     flex-grow: 1;
-    height: 303px;
-    width: 300px;
+    width: 176px;
+    height: 174px;
 }
 
 .descripcion-productos {

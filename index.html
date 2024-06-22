@@ -15,11 +15,13 @@
         <img src="imagenes/aluraGeekLOgo.png" class="Logo_alura" alt="logo">
     </header>
     
-    <main class="productos_catalogos" data-productos>
-        <h3 class="titulo_productos">Productos en venta</h3>
+    <h3 class="titulo_productos">Productos en venta</h3>
+    <ul class="productos_catalogos" data-lista>
+        
+        
         <!--productos javascript-->
 
-    </main>
+    </ul>
 
     <section class="container">
         <form class="container_form" data-formulario>
@@ -39,7 +41,7 @@
             <div class="campo_form">
                 <label class="campo_etiqueta" for="imagen">Imagen:</label>
                 <input name="imagen" class="campo_escrito" required
-                placeholder="imagen" id="imagen" data-price/>
+                placeholder="imagen" id="imagen" data-imagen/>
             </div>
 
             <div class="botones">
@@ -55,7 +57,7 @@
             <p class="foot_er">Desarrollado por Rebeca Palacios</p>
             <p class="foot_er">2024</p>
     </footer>  
-    
-    <!--script js-->
+    <script  src="./js/mostrarProd.js" type="module"></script>
+    <script src="./js/nuevoProducto.js" type="module"></script>
 </body>
 </html>
