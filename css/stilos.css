@@ -99,6 +99,12 @@ body {
     border-radius: 100%;
 }
 
+.icono-eliminar {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
 /*formulario*/
 
 .container {

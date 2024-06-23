@@ -30,6 +30,19 @@ async function crearNew (nombre, descripcion, imagen){
     return conexionConvertida
 }
 
+async function eliminarProducto (id){
+    const conexion =await fetch(`http://localhost:3001/productos/${id}`,{
+        method:"DELETE",
+        headers:{
+            "Content-type":"application/json",
+        }
+    
+    })
+    const conexionConvertida= conexion.json()
+
+    return conexionConvertida
+
+}
 export const conexionApi={
-    listaProductos, crearNew
+    listaProductos, crearNew, eliminarProducto
 }
